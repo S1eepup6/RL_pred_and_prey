@@ -1,0 +1,6 @@
+Env (Predator & prey)
+1. Predator가 prey를 쫓는 간단한 게임
+2. agent: predator, state: 2d coordinate(최소 [0,0] / 최대 [6,6])
+3. prey는 rule-based로 움직임
+ 3-1. prey는 거리 2 안에 pred.가 있으면 그 방향으론 가지 않음
+ 3-2. 갈 수 있는 목록중 하나를 선택해 움직임.
